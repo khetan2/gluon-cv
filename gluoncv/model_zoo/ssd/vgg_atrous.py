@@ -193,7 +193,7 @@ def get_vgg_atrous_extractor(num_layers, im_size, pretrained=False, ctx=mx.cpu()
     extras = extra_spec[im_size]
     net = VGGAtrousExtractor(layers, filters, extras, **kwargs)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         batch_norm_suffix = '_bn' if kwargs.get('batch_norm') else ''
         net.initialize(ctx=ctx)
         net.load_parameters(get_model_file('vgg%d_atrous%s'%(num_layers, batch_norm_suffix),

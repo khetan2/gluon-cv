@@ -487,7 +487,7 @@ def get_se_resnet(version, num_layers, pretrained=False, ctx=cpu(),
     block_class = resnet_block_versions[version-1][block_type]
     net = resnet_class(block_class, layers, channels, **kwargs)
     if pretrained:
-        from .model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         net.load_parameters(get_model_file('se_resnet%d_v%d'%(num_layers, version),
                                            tag=pretrained, root=root), ctx=ctx)
         from ..data import ImageNet1kAttr

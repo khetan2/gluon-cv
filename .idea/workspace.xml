@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3f8ecd9-fe5b-4a4c-8383-8a9e73ca129a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gluoncv/model_zoo/model_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/gluoncv/model_zoo/model_zoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gluoncv/model_zoo/resnetv1b_pruned.py" beforeDir="false" afterPath="$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnetv1b_pruned.py" afterDir="false" />
-    </list>
+    <list default="true" id="f3f8ecd9-fe5b-4a4c-8383-8a9e73ca129a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +13,11 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/model_zoo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="207" column="15" lean-forward="true" selection-start-line="207" selection-start-column="15" selection-end-line="207" selection-end-column="15" />
+            <state relative-caret-position="4554">
+              <caret line="207" column="15" selection-start-line="207" selection-start-column="15" selection-end-line="207" selection-end-column="15" />
               <folding>
                 <element signature="e#167#185#0" expanded="true" />
               </folding>
@@ -66,11 +61,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnetv1b_pruned.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="515">
+              <caret line="89" column="13" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="13" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
-                <element signature="e#525#3055#0" />
               </folding>
             </state>
           </provider>
@@ -79,12 +73,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/ModelCompression/ChannelPruning/gluoncv_resnet_pruning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1033">
-              <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+            <state relative-caret-position="387">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#204#2269#0" />
-                <element signature="e#2372#3700#0" />
               </folding>
             </state>
           </provider>
@@ -116,15 +108,14 @@
         <option value="$PROJECT_DIR$/gluoncv/model_zoo/resnetv1b.py" />
         <option value="$PROJECT_DIR$/gluoncv/model_zoo/resnetv1b_pruned.py" />
         <option value="$PROJECT_DIR$/gluoncv/model_zoo/model_zoo.py" />
-        <option value="$USER_HOME$/ModelCompression/ChannelPruning/gluoncv_resnet_pruning.py" />
         <option value="$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnetv1b_pruned.py" />
+        <option value="$USER_HOME$/ModelCompression/ChannelPruning/gluoncv_resnet_pruning.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="404" />
-    <option name="y" value="69" />
-    <option name="width" value="2041" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -132,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +157,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,6 +165,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet" />
+      <recent name="$PROJECT_DIR$/gluoncv/model_zoo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +222,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
@@ -238,7 +230,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12650603" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,9 +269,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnet50_v1d_1.8x.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnet50_v1d_1.8x.json" />
     <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/resnetv1b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7707">
@@ -306,8 +296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/model_zoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="207" column="15" lean-forward="true" selection-start-line="207" selection-start-column="15" selection-end-line="207" selection-end-column="15" />
+        <state relative-caret-position="4554">
+          <caret line="207" column="15" selection-start-line="207" selection-start-column="15" selection-end-line="207" selection-end-column="15" />
           <folding>
             <element signature="e#167#185#0" expanded="true" />
           </folding>
@@ -316,23 +306,20 @@
     </entry>
     <entry file="file://$USER_HOME$/ModelCompression/ChannelPruning/gluoncv_resnet_pruning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        <state relative-caret-position="387">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#204#2269#0" />
-            <element signature="e#2372#3700#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gluoncv/model_zoo/pruned_resnet/resnetv1b_pruned.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="515">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="13" />
           <folding>
             <element signature="e#47#78#0" expanded="true" />
-            <element signature="e#525#3055#0" />
           </folding>
         </state>
       </provider>

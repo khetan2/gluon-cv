@@ -553,7 +553,7 @@ def get_yolov3(name, stages, filters, anchors, strides, classes,
     """
     net = YOLOV3(stages, filters, anchors, strides, classes=classes, **kwargs)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         full_name = '_'.join(('yolo3', name, dataset))
         net.load_parameters(get_model_file(full_name, tag=pretrained, root=root), ctx=ctx)
     return net

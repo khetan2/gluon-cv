@@ -81,7 +81,7 @@ def alexnet(pretrained=False, ctx=cpu(),
     """
     net = AlexNet(**kwargs)
     if pretrained:
-        from .model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         net.load_parameters(get_model_file('alexnet', tag=pretrained, root=root), ctx=ctx)
         from ..data import ImageNet1kAttr
         attrib = ImageNet1kAttr()

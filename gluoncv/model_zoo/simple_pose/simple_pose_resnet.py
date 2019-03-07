@@ -119,7 +119,7 @@ def get_simple_pose_resnet(base_name, pretrained=False, ctx=cpu(),
     net = SimplePoseResNet(base_name, **kwargs)
 
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         net.load_parameters(get_model_file('simple_pose_%s'%(base_name),
                                            tag=pretrained, root=root), ctx=ctx)
 

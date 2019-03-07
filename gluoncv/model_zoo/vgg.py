@@ -111,7 +111,7 @@ def get_vgg(num_layers, pretrained=False, ctx=cpu(),
     layers, filters = vgg_spec[num_layers]
     net = VGG(layers, filters, **kwargs)
     if pretrained:
-        from .model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         batch_norm_suffix = '_bn' if kwargs.get('batch_norm') else ''
         net.load_parameters(get_model_file('vgg%d%s'%(num_layers, batch_norm_suffix),
                                            tag=pretrained, root=root), ctx=ctx)

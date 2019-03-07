@@ -79,7 +79,7 @@ def resnet18_v1b_2_point_6x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0)
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%db_%.1fx' % (18, 1, 2.6), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -113,7 +113,7 @@ def resnet50_v1d_1_point_8x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0)
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (50, 1, 1.8), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -148,7 +148,7 @@ def resnet50_v1d_3_point_6x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0)
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (50, 1, 3.6), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -183,7 +183,7 @@ def resnet50_v1d_5_point_9x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0)
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (50, 1, 5.9), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -218,7 +218,7 @@ def resnet50_v1d_8_point_8x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0)
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (50, 1, 8.8), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -253,7 +253,7 @@ def resnet101_v1d_1_point_9x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (101, 1, 1.9), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:
@@ -288,7 +288,7 @@ def resnet101_v1d_2_point_2x(pretrained=False, root='~/.mxnet/models', ctx=cpu(0
     with open(json_filename, "r") as jsonFile:
         params_shapes = json.load(jsonFile)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         params_file = get_model_file('resnet%d_v%dd_%.1fx' % (101, 1, 2.2), tag=pretrained, root=root)
         prune_gluon_block(model, model.name, params_shapes, params=ndarray.load(params_file), pretrained=True, ctx=ctx)
     else:

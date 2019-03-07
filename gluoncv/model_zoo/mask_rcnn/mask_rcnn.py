@@ -191,7 +191,7 @@ def get_mask_rcnn(name, dataset, pretrained=False, ctx=mx.cpu(),
     """
     net = MaskRCNN(**kwargs)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         full_name = '_'.join(('mask_rcnn', name, dataset))
         net.load_parameters(get_model_file(full_name, tag=pretrained, root=root), ctx=ctx)
     return net

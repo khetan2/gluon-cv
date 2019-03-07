@@ -218,7 +218,7 @@ def get_senet(num_layers, cardinality=64, bottleneck_width=4,
     layers = resnext_spec[num_layers]
     net = SENet(layers, cardinality, bottleneck_width, **kwargs)
     if pretrained:
-        from .model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         net.load_parameters(get_model_file('senet_%d'%(num_layers+2),
                                            root=root), ctx=ctx)
         from ..data import ImageNet1kAttr

@@ -400,7 +400,7 @@ def get_ssd(name, base_size, features, filters, sizes, ratios, steps, classes,
     net = SSD(base_name, base_size, features, filters, sizes, ratios, steps,
               pretrained=pretrained_base, classes=classes, ctx=ctx, **kwargs)
     if pretrained:
-        from ..model_store import get_model_file
+        from gluoncv.model_zoo.model_store import get_model_file
         full_name = '_'.join(('ssd', str(base_size), name, dataset))
         net.load_parameters(get_model_file(full_name, tag=pretrained, root=root), ctx=ctx)
     return net
